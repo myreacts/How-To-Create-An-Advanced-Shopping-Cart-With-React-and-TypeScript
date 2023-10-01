@@ -1,6 +1,6 @@
 import { Button, Container, Nav, Navbar as NavbarBs } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import { useShoppingCart } from "../context/ShoppingCartContext";
+import { useShoppingCart } from "../hooks/useShoppingCart";
 
 export function Navbar() {
   const { openCart, cartQuantity } = useShoppingCart();

@@ -5,10 +5,10 @@ import {
   OffcanvasTitle,
   Stack,
 } from "react-bootstrap";
-import { useShoppingCart } from "../context/ShoppingCartContext";
 import { CartItem } from "./CartItem";
 import { formatCurrency } from "../utilities/formatCurrency";
 import storeItems from "../data/items.json";
+import { useShoppingCart } from "../hooks/useShoppingCart";
 
 type ShoppingCartProps = {
   isOpen: boolean;
