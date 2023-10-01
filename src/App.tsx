@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Store from "./pages/Store";
 import About from "./pages/About";
 import { Navbar } from "./components/Navbar";
-import { ShoppingCartProvider } from "./content/ShoppingCartContext";
+import { ShoppingCartProvider } from "./context/ShoppingCartContext";
 
 function App() {
   return (
